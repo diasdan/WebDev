@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+main{
+    margin: auto;
+    width: 980px;
+    position: relative;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+.logo{
+    position: relative;
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+
+.redes-sociais ul li{
+    margin-left: 25px;
+    display: inline;
+    columns: 4;
+    list-style: none;
+
+}
+
+.redes-sociais{
+    width: 25%;
+    float: right;
+}
+
+.header-2{
+    background-color: white;
+    width: 980px;
+    margin: auto;
+    padding: 12px;
+}
+
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid rgb(207, 207, 207);
+}
+
+ul{
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+ .menu ul li a{
+     text-decoration: none;
+     color: gray;
+     font-size: 18px;
+     text-transform: uppercase;
+     padding-bottom: 4.6%;
+ }
+
+ .menu {
+     margin-top: 2px;
+     width: 70%;
+     float: left;
+ }
+
+ .busca {
+     width: 30%;
+     float: right;
+     text-align: center;
+ }
+
+ .busca > input{
+    background-image: url("../img/icone-search.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    padding-left: 12px;
+    height: 30px;
+    width: 190px;
+    margin-top: 9px;
+    border: 2px solid rgba(141, 140, 140, 0.404);
+ }
+
+ .menu ul li a:hover{
+    border-bottom: 3px solid #00b9c691;
+    color: #00b9c691;
+}
+
+button.slick-prev{
+    background-image: url("../img/anterior.png");
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    left: 15%;
+}
+
+button.slick-next{
+    background-image: url("../img/proximo.png");
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    right: 15%;
+}
+
+#slick-slide-control00{
+    left: 42%;
+    position: absolute;
+}
+
+#slick-slide-control01{
+    left: 47%;
+    position: absolute;
+}
+
+#slick-slide-control02{
+    left: 52%;
+    position: absolute;
+}
+
+#slick-slide-control03{
+    left: 57%;
+    position: absolute;
+}
+
+
+ul.slick-dots li button{
+    position: absolute;
+    top: 75%;
+    font-size: 0;
+    border: 3px solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+
+}
+
+ul.slick-dots li.slick-active button{
+    background-position: bottom;
+    background-color: #00b9c691;
+    border-radius: 50%;
+
+}
+

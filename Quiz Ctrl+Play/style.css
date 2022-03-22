@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Gameplay';
+    src: url('fonts/Gameplay.ttf') format('truetype');
+};
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color1: #E97812 ;
+    --color2: #0F7392;
+}
+
+body{
+    background-color: #0f7492c2;
+    margin: 0;
+}
+
+header{
+    background-color: var(--color1);
+    margin: 0;
+}
+
+header > img {
+    padding: 30px;
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+}
+
+img#mario {
+    width: 200px;
+    height: 200px;
+}
+
+#pc-gamer{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#roblox{
+    width: 300px;
+    height: 200px;
+}
+
+#mc-icon{
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    font-family: 'Gameplay';
+    text-align: center;
+    font-size: 3.5em;
+    color: var(--color2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2, p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    margin: auto;
+    width: 600px;  
+    background-color:white ; 
+    padding: 50px;
+}
+
+input#answer {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #0F7392;
+    color: white;
+    font-family: "Gameplay";
+    padding: 10px;
+    margin-top: 50px;
+}
+
+input#answer:hover{
+    box-shadow: 0px 0px 15px #E97812;
+    font-size: 1.1em;    
+}
+
+footer{
+    background-color: var(--color1);
+}
+
+footer > img {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#res{
+    border: solid 5px var(--color2);
+    border-radius: 20px;
+    text-align: center;
+}
+
+form {
+    border: solid 5px var(--color2);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #0F7392;
+}
+
+a::after{
+    color: #0F7392;
+}
+
+a:hover{
+    text-shadow: 0px 0px 5px #E97812;
+}
